@@ -23,3 +23,20 @@ Los Pokemons  tienen debilidades (Weaknesses) las cuales pueden ser otros tipos 
 Crear los siguientes test:
 
 - Un test que agregue 2 pokemons y valide que tenga esa cantidad de pokemons dentro de la fábrica.
+
+
+# Commands
+
+## Create hardhat project
+npx hardhat
+
+
+## Compile contract
+npx hardhat compile
+
+## Run contract test
+npx hardhat test
+
+
+## Run Script
+npx hardhat run scripts/deploy_store.js
